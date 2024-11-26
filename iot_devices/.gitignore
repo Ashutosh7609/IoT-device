@@ -1,0 +1,51 @@
+# General
+.DS_Store
+Thumbs.db
+
+# React.js (Frontend)
+iot_devices/node_modules/
+iot_devices/build/
+iot_devices/.env
+iot_devices/.cache/
+iot_devices/coverage/
+iot_devices/dist/
+iot_devices/npm-debug.log*
+iot_devices/yarn-debug.log*
+iot_devices/yarn-error.log*
+iot_devices/package-lock.json
+iot_devices/pnpm-lock.yaml
+iot_devices/yarn.lock
+
+# Python (Backend)
+backend/__pycache__/
+backend/*.pyc
+backend/env/
+backend/venv/
+backend/iot_api/lib/
+backend/iot_api/lib/python*/site-packages/
+backend/.env
+
+# Logs
+*.log
+
+# OS or Editor-Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git Metadata Backup
+*.orig
+
+# Temp files
+*.tmp
+*.bak
+*.~*
+*.swp
+*.swo
+
+# Other
+backend/db.sqlite3  # Replace with your database file if it shouldn't be tracked
+*.pid
+*.seed
+*.pid.lock

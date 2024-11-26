@@ -1,0 +1,20 @@
+/* General container styles */
+.graph-container {
+  width: 100%;
+  height: auto; /* Dynamic height for smaller screens */
+  overflow: hidden; /* Prevent extra scrolling */
+}
+
+/* Adjust dimensions for desktop screens */
+@media (min-width: 992px) {
+  .graph-container {
+    width: 80%; /* Limit width for desktops */
+    height: 400px; /* Set a fixed height for the graph */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  canvas {
+    max-height: 100%; /* Ensure the canvas does not exceed the container's height */
+    max-width: 100%; /* Ensure the canvas does not exceed the container's width */
+  }
+}
