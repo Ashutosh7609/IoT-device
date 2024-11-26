@@ -14,16 +14,16 @@ This project is an interactive **IoT Dashboard** built using **React** for the f
 ### Steps
 
 1. **Clone the repository**:
-   git clone https://github.com/Ashutosh7609/IoT-device.git
+   git clone https://github.com/Ashutosh7609/IoT-device.git | 
    cd IoT-device
 
 2. **Frontend Setup**:
-   npm install
+   npm install | 
    npm start
 
 3. **Backend Setup**:
-   python -m venv iot_api
-   source iot_api/bin/activate
-   pip install -r requirements.txt
+   python -m venv iot_api | 
+   source iot_api/bin/activate | 
+   pip install -r requirements.txt | 
    python3 app.py
 
